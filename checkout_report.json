@@ -1,0 +1,56 @@
+{
+  "title": "Type mismatch during execution",
+  "problem_type": "TypeError",
+  "severity": "critical",
+  "explanation": "An operation failed because a missing value was used where a real value was expected.",
+  "observed_facts": [
+    "Failing function: checkout",
+    "Original error message: unsupported operand type(s) for *: 'int' and 'NoneType'",
+    "Variable `base_price` had value 100",
+    "Variable `discount` had value None",
+    "Variable `final_price` had value None"
+  ],
+  "suspected_cause": "A variable with value None reached logic that expected a valid object or number.",
+  "confidence": "medium",
+  "suggested_next_action": "Check where the None value was introduced before this operation.",
+  "notes": [
+    "Root cause trace generated from local variable assignments.",
+    "Function call trace generated from local call assignments.",
+    "Branch trace generated from function conditions and runtime values."
+  ],
+  "file_name": "C:\\Project Explainable\\main.py",
+  "line_number": 13,
+  "code_line": "final_price = base_price * discount",
+  "possible_solutions": [
+    "Add a check for None before performing the operation.",
+    "Ensure the variable is assigned a real numeric or object value earlier.",
+    "Use a fallback value only if that matches the intended behavior."
+  ],
+  "recommended_solution": "Validate the value before the operation and trace where None was introduced.",
+  "possible_risks": [
+    "Using a fallback value may hide the real upstream data problem.",
+    "Only checking at the failure point may leave similar bugs elsewhere."
+  ],
+  "risk_level": "medium",
+  "verification_status": "",
+  "verification_notes": [],
+  "fix_verification_status": "",
+  "fix_verification_notes": [],
+  "version_comparison_status": "",
+  "version_comparison_notes": [],
+  "optimization_status": "",
+  "optimization_notes": [],
+  "inspection_findings": [],
+  "bug_risks": [],
+  "root_cause_trace": [
+    "Variable `base_price` was last assigned on line 2 as: 100",
+    "Variable `discount` was last assigned on line 3 as: get_discount()",
+    "Variable `final_price` was last assigned on line 8 as: base_price - discount"
+  ],
+  "call_trace": [
+    "Variable `discount` was assigned from call `get_discount()` on line 3 and had runtime value None; `get_discount()` appears to return: None"
+  ],
+  "branch_trace": [
+    "Line 5: condition `discount is None` could not be evaluated from the available runtime values."
+  ]
+}

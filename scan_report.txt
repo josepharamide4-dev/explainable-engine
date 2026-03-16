@@ -1,0 +1,1260 @@
+==================== Report 1 ====================
+
+Title: Project scan for core.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: core.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: core.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: no obvious structural inefficiencies detected
+
+Optimization Notes:
+- No nested loops or repeated append patterns were detected by the current scanner.
+
+==================== Report 2 ====================
+
+Title: Project scan for main.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: main.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: main.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: no obvious structural inefficiencies detected
+
+Optimization Notes:
+- No nested loops or repeated append patterns were detected by the current scanner.
+
+==================== Report 3 ====================
+
+Title: Project scan for sample_target.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: sample_target.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: sample_target.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: no obvious structural inefficiencies detected
+
+Optimization Notes:
+- No nested loops or repeated append patterns were detected by the current scanner.
+
+==================== Report 4 ====================
+
+Title: Project scan for confidence.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: config\confidence.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: confidence.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: no obvious structural inefficiencies detected
+
+Optimization Notes:
+- No nested loops or repeated append patterns were detected by the current scanner.
+
+==================== Report 5 ====================
+
+Title: Project scan for settings.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: config\settings.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: settings.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: no obvious structural inefficiencies detected
+
+Optimization Notes:
+- No nested loops or repeated append patterns were detected by the current scanner.
+
+==================== Report 6 ====================
+
+Title: Project scan for __init__.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: config\__init__.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: __init__.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: no obvious structural inefficiencies detected
+
+Optimization Notes:
+- No nested loops or repeated append patterns were detected by the current scanner.
+
+==================== Report 7 ====================
+
+Title: Project scan for branch_tracer.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: core\branch_tracer.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: branch_tracer.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: potential inefficiencies detected
+
+Optimization Notes:
+- 6 possible issue(s) found during static inspection.
+
+Code Inspection Findings:
+- Line 17: List append detected — consider list comprehension if appropriate.
+- Line 22: List append detected — consider list comprehension if appropriate.
+- Line 26: List append detected — consider list comprehension if appropriate.
+- Line 30: List append detected — consider list comprehension if appropriate.
+- Line 117: List append detected — consider list comprehension if appropriate.
+- Line 126: List append detected — consider list comprehension if appropriate.
+
+==================== Report 8 ====================
+
+Title: Project scan for bug_chain.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: core\bug_chain.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: bug_chain.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: potential inefficiencies detected
+
+Optimization Notes:
+- 4 possible issue(s) found during static inspection.
+
+Code Inspection Findings:
+- Line 9: Nested loop detected — possible O(n²) performance issue.
+- Line 39: List append detected — consider list comprehension if appropriate.
+- Line 50: List append detected — consider list comprehension if appropriate.
+- Line 60: List append detected — consider list comprehension if appropriate.
+
+==================== Report 9 ====================
+
+Title: Project scan for call_graph.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: core\call_graph.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: call_graph.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: no obvious structural inefficiencies detected
+
+Optimization Notes:
+- No nested loops or repeated append patterns were detected by the current scanner.
+
+==================== Report 10 ====================
+
+Title: Project scan for call_tracer.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: core\call_tracer.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: call_tracer.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: potential inefficiencies detected
+
+Optimization Notes:
+- 5 possible issue(s) found during static inspection.
+
+Code Inspection Findings:
+- Line 18: List append detected — consider list comprehension if appropriate.
+- Line 60: List append detected — consider list comprehension if appropriate.
+- Line 76: List append detected — consider list comprehension if appropriate.
+- Line 97: List append detected — consider list comprehension if appropriate.
+- Line 102: List append detected — consider list comprehension if appropriate.
+
+==================== Report 11 ====================
+
+Title: Project scan for cli.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: core\cli.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: cli.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: potential inefficiencies detected
+
+Optimization Notes:
+- 1 possible issue(s) found during static inspection.
+
+Code Inspection Findings:
+- Line 366: Nested loop detected — possible O(n²) performance issue.
+
+==================== Report 12 ====================
+
+Title: Project scan for demo_cases.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: core\demo_cases.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: demo_cases.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: no obvious structural inefficiencies detected
+
+Optimization Notes:
+- No nested loops or repeated append patterns were detected by the current scanner.
+
+==================== Report 13 ====================
+
+Title: Project scan for explainer.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: core\explainer.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: explainer.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: potential inefficiencies detected
+
+Optimization Notes:
+- 5 possible issue(s) found during static inspection.
+
+Code Inspection Findings:
+- Line 21: List append detected — consider list comprehension if appropriate.
+- Line 24: List append detected — consider list comprehension if appropriate.
+- Line 28: List append detected — consider list comprehension if appropriate.
+- Line 113: List append detected — consider list comprehension if appropriate.
+- Line 182: List append detected — consider list comprehension if appropriate.
+
+==================== Report 14 ====================
+
+Title: Project scan for file_loader.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: core\file_loader.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: file_loader.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: no obvious structural inefficiencies detected
+
+Optimization Notes:
+- No nested loops or repeated append patterns were detected by the current scanner.
+
+==================== Report 15 ====================
+
+Title: Project scan for inspector.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: core\inspector.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: inspector.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: potential inefficiencies detected
+
+Optimization Notes:
+- 5 possible issue(s) found during static inspection.
+
+Code Inspection Findings:
+- Line 17: List append detected — consider list comprehension if appropriate.
+- Line 26: List append detected — consider list comprehension if appropriate.
+- Line 35: List append detected — consider list comprehension if appropriate.
+- Line 46: List append detected — consider list comprehension if appropriate.
+- Line 70: List append detected — consider list comprehension if appropriate.
+
+==================== Report 16 ====================
+
+Title: Project scan for logger.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: core\logger.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: logger.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: no obvious structural inefficiencies detected
+
+Optimization Notes:
+- No nested loops or repeated append patterns were detected by the current scanner.
+
+==================== Report 17 ====================
+
+Title: Project scan for optimizer.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: core\optimizer.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: optimizer.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: no obvious structural inefficiencies detected
+
+Optimization Notes:
+- No nested loops or repeated append patterns were detected by the current scanner.
+
+==================== Report 18 ====================
+
+Title: Project scan for runner.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: core\runner.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: runner.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: no obvious structural inefficiencies detected
+
+Optimization Notes:
+- No nested loops or repeated append patterns were detected by the current scanner.
+
+==================== Report 19 ====================
+
+Title: Project scan for runtime_scanner.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: core\runtime_scanner.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: runtime_scanner.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: potential inefficiencies detected
+
+Optimization Notes:
+- 16 possible issue(s) found during static inspection.
+
+Code Inspection Findings:
+- Line 49: List append detected — consider list comprehension if appropriate.
+- Line 92: List append detected — consider list comprehension if appropriate.
+- Line 93: List append detected — consider list comprehension if appropriate.
+- Line 96: List append detected — consider list comprehension if appropriate.
+- Line 108: List append detected — consider list comprehension if appropriate.
+- Line 109: List append detected — consider list comprehension if appropriate.
+- Line 110: List append detected — consider list comprehension if appropriate.
+- Line 111: List append detected — consider list comprehension if appropriate.
+- Line 112: List append detected — consider list comprehension if appropriate.
+- Line 115: List append detected — consider list comprehension if appropriate.
+- Line 120: List append detected — consider list comprehension if appropriate.
+- Line 125: List append detected — consider list comprehension if appropriate.
+- Line 131: List append detected — consider list comprehension if appropriate.
+- Line 138: List append detected — consider list comprehension if appropriate.
+- Line 152: Nested loop detected — possible O(n²) performance issue.
+- Line 163: List append detected — consider list comprehension if appropriate.
+
+==================== Report 20 ====================
+
+Title: Project scan for safe_executor.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: core\safe_executor.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: safe_executor.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: no obvious structural inefficiencies detected
+
+Optimization Notes:
+- No nested loops or repeated append patterns were detected by the current scanner.
+
+==================== Report 21 ====================
+
+Title: Project scan for scanner.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: core\scanner.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: scanner.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: potential inefficiencies detected
+
+Optimization Notes:
+- 7 possible issue(s) found during static inspection.
+
+Code Inspection Findings:
+- Line 15: Nested loop detected — possible O(n²) performance issue.
+- Line 29: List append detected — consider list comprehension if appropriate.
+- Line 37: List append detected — consider list comprehension if appropriate.
+- Line 65: List append detected — consider list comprehension if appropriate.
+- Line 78: List append detected — consider list comprehension if appropriate.
+- Line 84: List append detected — consider list comprehension if appropriate.
+- Line 100: List append detected — consider list comprehension if appropriate.
+
+==================== Report 22 ====================
+
+Title: Project scan for tracer.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: core\tracer.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: tracer.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: potential inefficiencies detected
+
+Optimization Notes:
+- 4 possible issue(s) found during static inspection.
+
+Code Inspection Findings:
+- Line 31: List append detected — consider list comprehension if appropriate.
+- Line 42: List append detected — consider list comprehension if appropriate.
+- Line 46: List append detected — consider list comprehension if appropriate.
+- Line 53: List append detected — consider list comprehension if appropriate.
+
+==================== Report 23 ====================
+
+Title: Project scan for verifier.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: core\verifier.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: verifier.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: no obvious structural inefficiencies detected
+
+Optimization Notes:
+- No nested loops or repeated append patterns were detected by the current scanner.
+
+==================== Report 24 ====================
+
+Title: Project scan for versioning.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: core\versioning.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: versioning.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: no obvious structural inefficiencies detected
+
+Optimization Notes:
+- No nested loops or repeated append patterns were detected by the current scanner.
+
+==================== Report 25 ====================
+
+Title: Project scan for __init__.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: core\__init__.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: __init__.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: no obvious structural inefficiencies detected
+
+Optimization Notes:
+- No nested loops or repeated append patterns were detected by the current scanner.
+
+==================== Report 26 ====================
+
+Title: Project scan for exporter.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: reporting\exporter.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: exporter.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: potential inefficiencies detected
+
+Optimization Notes:
+- 2 possible issue(s) found during static inspection.
+
+Code Inspection Findings:
+- Line 25: List append detected — consider list comprehension if appropriate.
+- Line 26: List append detected — consider list comprehension if appropriate.
+
+==================== Report 27 ====================
+
+Title: Project scan for formatter.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: reporting\formatter.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: formatter.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: potential inefficiencies detected
+
+Optimization Notes:
+- 14 possible issue(s) found during static inspection.
+
+Code Inspection Findings:
+- Line 34: List append detected — consider list comprehension if appropriate.
+- Line 36: List append detected — consider list comprehension if appropriate.
+- Line 54: List append detected — consider list comprehension if appropriate.
+- Line 59: List append detected — consider list comprehension if appropriate.
+- Line 64: List append detected — consider list comprehension if appropriate.
+- Line 69: List append detected — consider list comprehension if appropriate.
+- Line 77: List append detected — consider list comprehension if appropriate.
+- Line 88: List append detected — consider list comprehension if appropriate.
+- Line 96: List append detected — consider list comprehension if appropriate.
+- Line 104: List append detected — consider list comprehension if appropriate.
+- Line 112: List append detected — consider list comprehension if appropriate.
+- Line 117: List append detected — consider list comprehension if appropriate.
+- Line 122: List append detected — consider list comprehension if appropriate.
+- Line 127: List append detected — consider list comprehension if appropriate.
+
+==================== Report 28 ====================
+
+Title: Project scan for models.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: reporting\models.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: models.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: no obvious structural inefficiencies detected
+
+Optimization Notes:
+- No nested loops or repeated append patterns were detected by the current scanner.
+
+==================== Report 29 ====================
+
+Title: Project scan for __init__.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: reporting\__init__.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: __init__.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: no obvious structural inefficiencies detected
+
+Optimization Notes:
+- No nested loops or repeated append patterns were detected by the current scanner.
+
+==================== Report 30 ====================
+
+Title: Project scan for test_analyze_file_json_output.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: tests\test_analyze_file_json_output.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: test_analyze_file_json_output.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: no obvious structural inefficiencies detected
+
+Optimization Notes:
+- No nested loops or repeated append patterns were detected by the current scanner.
+
+==================== Report 31 ====================
+
+Title: Project scan for test_bug_chain.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: tests\test_bug_chain.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: test_bug_chain.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: no obvious structural inefficiencies detected
+
+Optimization Notes:
+- No nested loops or repeated append patterns were detected by the current scanner.
+
+==================== Report 32 ====================
+
+Title: Project scan for test_call_graph.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: tests\test_call_graph.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: test_call_graph.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: no obvious structural inefficiencies detected
+
+Optimization Notes:
+- No nested loops or repeated append patterns were detected by the current scanner.
+
+==================== Report 33 ====================
+
+Title: Project scan for test_cli.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: tests\test_cli.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: test_cli.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: no obvious structural inefficiencies detected
+
+Optimization Notes:
+- No nested loops or repeated append patterns were detected by the current scanner.
+
+==================== Report 34 ====================
+
+Title: Project scan for test_cli_json_output.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: tests\test_cli_json_output.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: test_cli_json_output.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: no obvious structural inefficiencies detected
+
+Optimization Notes:
+- No nested loops or repeated append patterns were detected by the current scanner.
+
+==================== Report 35 ====================
+
+Title: Project scan for test_exist_codes.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: tests\test_exist_codes.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: test_exist_codes.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: no obvious structural inefficiencies detected
+
+Optimization Notes:
+- No nested loops or repeated append patterns were detected by the current scanner.
+
+==================== Report 36 ====================
+
+Title: Project scan for test_file_loader.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: tests\test_file_loader.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: test_file_loader.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: no obvious structural inefficiencies detected
+
+Optimization Notes:
+- No nested loops or repeated append patterns were detected by the current scanner.
+
+==================== Report 37 ====================
+
+Title: Project scan for test_new_cli_commands.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: tests\test_new_cli_commands.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: test_new_cli_commands.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: no obvious structural inefficiencies detected
+
+Optimization Notes:
+- No nested loops or repeated append patterns were detected by the current scanner.
+
+==================== Report 38 ====================
+
+Title: Project scan for test_scanner.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: tests\test_scanner.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: test_scanner.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: no obvious structural inefficiencies detected
+
+Optimization Notes:
+- No nested loops or repeated append patterns were detected by the current scanner.
+
+==================== Report 39 ====================
+
+Title: Project scan for test_scan_trace_json_stdout.py
+Problem Type: StaticInspection
+Severity: warning
+
+Failure Location:
+File: tests\test_scan_trace_json_stdout.py
+Line: Unknown
+Code: Unknown
+
+Explanation:
+Static code inspection completed.
+
+Observed Facts:
+- Scanned file: test_scan_trace_json_stdout.py
+
+Suspected Cause:
+Potential inefficiencies or risky structural patterns were detected.
+
+Confidence: medium
+
+Suggested Next Action:
+Review the inspection findings and optimize the flagged areas where needed.
+
+Optimization Status: no obvious structural inefficiencies detected
+
+Optimization Notes:
+- No nested loops or repeated append patterns were detected by the current scanner.

@@ -1,0 +1,4441 @@
+==================== Report 1 ====================
+
+Title: Trace preview for function `explain_error`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\explainer.py
+Line: 274
+Code: def explain_error(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: explain_error
+- Required parameters: 2
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 1
+- Function calls found: 3
+- Return statements found: 2
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 2 ====================
+
+Title: Trace preview for function `format_report`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\reporting\formatter.py
+Line: 4
+Code: def format_report(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: format_report
+- Required parameters: 1
+- For-loops found: 13
+- While-loops found: 0
+- If-branches found: 20
+- Function calls found: 36
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: manual review recommended
+
+Optimization Notes:
+- This function contains loop structures that may deserve closer inspection.
+
+Code Inspection Findings:
+- Multiple for-loops detected. Review for possible nested-loop inefficiency.
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 3 ====================
+
+Title: Trace preview for function `safe_explain`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core.py
+Line: 5
+Code: def safe_explain(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: safe_explain
+- Required parameters: 1
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 6
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 4 ====================
+
+Title: Trace preview for function `main`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\main.py
+Line: 6
+Code: def main(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: main
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 2
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 5 ====================
+
+Title: Trace preview for function `run_cli`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\cli.py
+Line: 32
+Code: def run_cli(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: run_cli
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 7
+- Function calls found: 42
+- Return statements found: 9
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 6 ====================
+
+Title: Trace preview for function `calculate_discount`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\sample_target.py
+Line: 1
+Code: def calculate_discount(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: calculate_discount
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 0
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 7 ====================
+
+Title: Trace preview for function `checkout`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\sample_target.py
+Line: 9
+Code: def checkout(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: checkout
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 1
+- Function calls found: 1
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 8 ====================
+
+Title: Trace preview for function `get_discount`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\sample_target.py
+Line: 5
+Code: def get_discount(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: get_discount
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 1
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 9 ====================
+
+Title: Trace preview for function `healthy_function`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\sample_target.py
+Line: 21
+Code: def healthy_function(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: healthy_function
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 0
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 10 ====================
+
+Title: Trace preview for function `needs_argument`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\sample_target.py
+Line: 25
+Code: def needs_argument(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: needs_argument
+- Required parameters: 1
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 0
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 11 ====================
+
+Title: Trace preview for function `deep_merge`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\config\settings.py
+Line: 26
+Code: def deep_merge(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: deep_merge
+- Required parameters: 2
+- For-loops found: 1
+- While-loops found: 0
+- If-branches found: 1
+- Function calls found: 5
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 12 ====================
+
+Title: Trace preview for function `load_settings`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\config\settings.py
+Line: 42
+Code: def load_settings(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: load_settings
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 1
+- Function calls found: 5
+- Return statements found: 2
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 13 ====================
+
+Title: Trace preview for function `trace_branches`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\branch_tracer.py
+Line: 110
+Code: def trace_branches(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: trace_branches
+- Required parameters: 2
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 1
+- Function calls found: 7
+- Return statements found: 2
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 14 ====================
+
+Title: Trace preview for function `build_call_graph`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\call_graph.py
+Line: 30
+Code: def build_call_graph(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: build_call_graph
+- Required parameters: 1
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 5
+- Return statements found: 2
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 15 ====================
+
+Title: Trace preview for function `find_bug_chains`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\bug_chain.py
+Line: 19
+Code: def find_bug_chains(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: find_bug_chains
+- Required parameters: 2
+- For-loops found: 2
+- While-loops found: 1
+- If-branches found: 6
+- Function calls found: 13
+- Return statements found: 3
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: manual review recommended
+
+Optimization Notes:
+- This function contains loop structures that may deserve closer inspection.
+
+Code Inspection Findings:
+- Multiple for-loops detected. Review for possible nested-loop inefficiency.
+
+Potential Bug Risks:
+- Contains a while-loop. Review manually for termination conditions.
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 16 ====================
+
+Title: Trace preview for function `invert_graph`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\bug_chain.py
+Line: 6
+Code: def invert_graph(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: invert_graph
+- Required parameters: 1
+- For-loops found: 2
+- While-loops found: 0
+- If-branches found: 1
+- Function calls found: 5
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: manual review recommended
+
+Optimization Notes:
+- This function contains loop structures that may deserve closer inspection.
+
+Code Inspection Findings:
+- Multiple for-loops detected. Review for possible nested-loop inefficiency.
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 17 ====================
+
+Title: Trace preview for function `build_call_graph`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\call_graph.py
+Line: 30
+Code: def build_call_graph(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: build_call_graph
+- Required parameters: 1
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 5
+- Return statements found: 2
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 18 ====================
+
+Title: Trace preview for function `trace_function_calls`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\call_tracer.py
+Line: 52
+Code: def trace_function_calls(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: trace_function_calls
+- Required parameters: 2
+- For-loops found: 2
+- While-loops found: 0
+- If-branches found: 3
+- Function calls found: 15
+- Return statements found: 2
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: manual review recommended
+
+Optimization Notes:
+- This function contains loop structures that may deserve closer inspection.
+
+Code Inspection Findings:
+- Multiple for-loops detected. Review for possible nested-loop inefficiency.
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 19 ====================
+
+Title: Trace preview for function `analyze_function`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\runner.py
+Line: 13
+Code: def analyze_function(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: analyze_function
+- Required parameters: 1
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 3
+- Function calls found: 15
+- Return statements found: 2
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 20 ====================
+
+Title: Trace preview for function `asdict`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Users\Josep\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py
+Line: 1338
+Code: def asdict(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: asdict
+- Required parameters: 1
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 1
+- Function calls found: 3
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+Notes:
+- Docstring: Return the fields of a dataclass instance as a new dictionary mapping
+field names to field values.
+
+Example usage::
+
+  @dataclass
+  class C:
+      x: int
+      y: int
+
+  c = C(1, 2)
+  assert asdict(c) == {'x': 1, 'y': 2}
+
+If given, 'dict_factory' will be used instead of built-in dict.
+The function applies recursively to field values that are
+dataclass instances. This will also look into built-in containers:
+tuples, lists, and dicts. Other objects are copied with 'copy.deepcopy()'.
+
+==================== Report 21 ====================
+
+Title: Trace preview for function `build_call_graph`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\call_graph.py
+Line: 30
+Code: def build_call_graph(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: build_call_graph
+- Required parameters: 1
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 5
+- Return statements found: 2
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 22 ====================
+
+Title: Trace preview for function `choose_default_export_path`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\cli.py
+Line: 150
+Code: def choose_default_export_path(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: choose_default_export_path
+- Required parameters: 2
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 0
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 23 ====================
+
+Title: Trace preview for function `export_reports_json`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\reporting\exporter.py
+Line: 31
+Code: def export_reports_json(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: export_reports_json
+- Required parameters: 2
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 4
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 24 ====================
+
+Title: Trace preview for function `export_reports_text`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\reporting\exporter.py
+Line: 20
+Code: def export_reports_text(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: export_reports_text
+- Required parameters: 2
+- For-loops found: 1
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 7
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 25 ====================
+
+Title: Trace preview for function `find_bug_chains`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\bug_chain.py
+Line: 19
+Code: def find_bug_chains(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: find_bug_chains
+- Required parameters: 2
+- For-loops found: 2
+- While-loops found: 1
+- If-branches found: 6
+- Function calls found: 13
+- Return statements found: 3
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: manual review recommended
+
+Optimization Notes:
+- This function contains loop structures that may deserve closer inspection.
+
+Code Inspection Findings:
+- Multiple for-loops detected. Review for possible nested-loop inefficiency.
+
+Potential Bug Risks:
+- Contains a while-loop. Review manually for termination conditions.
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 26 ====================
+
+Title: Trace preview for function `format_report`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\reporting\formatter.py
+Line: 4
+Code: def format_report(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: format_report
+- Required parameters: 1
+- For-loops found: 13
+- While-loops found: 0
+- If-branches found: 20
+- Function calls found: 36
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: manual review recommended
+
+Optimization Notes:
+- This function contains loop structures that may deserve closer inspection.
+
+Code Inspection Findings:
+- Multiple for-loops detected. Review for possible nested-loop inefficiency.
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 27 ====================
+
+Title: Trace preview for function `get_function_from_module`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\file_loader.py
+Line: 24
+Code: def get_function_from_module(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: get_function_from_module
+- Required parameters: 2
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 2
+- Function calls found: 5
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 28 ====================
+
+Title: Trace preview for function `get_zero_arg_functions`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\file_loader.py
+Line: 36
+Code: def get_zero_arg_functions(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: get_zero_arg_functions
+- Required parameters: 1
+- For-loops found: 1
+- While-loops found: 0
+- If-branches found: 2
+- Function calls found: 5
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 29 ====================
+
+Title: Trace preview for function `load_module_from_file`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\file_loader.py
+Line: 6
+Code: def load_module_from_file(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: load_module_from_file
+- Required parameters: 1
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 3
+- Function calls found: 8
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 30 ====================
+
+Title: Trace preview for function `load_settings`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\config\settings.py
+Line: 42
+Code: def load_settings(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: load_settings
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 1
+- Function calls found: 5
+- Return statements found: 2
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 31 ====================
+
+Title: Trace preview for function `run_analyze_file`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\cli.py
+Line: 238
+Code: def run_analyze_file(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: run_analyze_file
+- Required parameters: 2
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 8
+- Function calls found: 24
+- Return statements found: 3
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 32 ====================
+
+Title: Trace preview for function `run_bug_chain`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\cli.py
+Line: 377
+Code: def run_bug_chain(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: run_bug_chain
+- Required parameters: 2
+- For-loops found: 1
+- While-loops found: 0
+- If-branches found: 2
+- Function calls found: 10
+- Return statements found: 3
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 33 ====================
+
+Title: Trace preview for function `run_call_graph`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\cli.py
+Line: 347
+Code: def run_call_graph(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: run_call_graph
+- Required parameters: 1
+- For-loops found: 2
+- While-loops found: 0
+- If-branches found: 3
+- Function calls found: 16
+- Return statements found: 3
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: manual review recommended
+
+Optimization Notes:
+- This function contains loop structures that may deserve closer inspection.
+
+Code Inspection Findings:
+- Multiple for-loops detected. Review for possible nested-loop inefficiency.
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 34 ====================
+
+Title: Trace preview for function `run_cli`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\cli.py
+Line: 32
+Code: def run_cli(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: run_cli
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 7
+- Function calls found: 42
+- Return statements found: 9
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 35 ====================
+
+Title: Trace preview for function `run_list_functions`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\cli.py
+Line: 316
+Code: def run_list_functions(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: run_list_functions
+- Required parameters: 1
+- For-loops found: 1
+- While-loops found: 0
+- If-branches found: 2
+- Function calls found: 18
+- Return statements found: 4
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 36 ====================
+
+Title: Trace preview for function `run_scan`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\cli.py
+Line: 154
+Code: def run_scan(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: run_scan
+- Required parameters: 1
+- For-loops found: 1
+- While-loops found: 0
+- If-branches found: 5
+- Function calls found: 20
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 37 ====================
+
+Title: Trace preview for function `run_trace`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\cli.py
+Line: 194
+Code: def run_trace(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: run_trace
+- Required parameters: 1
+- For-loops found: 1
+- While-loops found: 0
+- If-branches found: 5
+- Function calls found: 22
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 38 ====================
+
+Title: Trace preview for function `scan_project`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\scanner.py
+Line: 89
+Code: def scan_project(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: scan_project
+- Required parameters: 1
+- For-loops found: 1
+- While-loops found: 0
+- If-branches found: 1
+- Function calls found: 7
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 39 ====================
+
+Title: Trace preview for function `scan_runtime`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\runtime_scanner.py
+Line: 145
+Code: def scan_runtime(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: scan_runtime
+- Required parameters: 1
+- For-loops found: 2
+- While-loops found: 0
+- If-branches found: 2
+- Function calls found: 9
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: manual review recommended
+
+Optimization Notes:
+- This function contains loop structures that may deserve closer inspection.
+
+Code Inspection Findings:
+- Multiple for-loops detected. Review for possible nested-loop inefficiency.
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 40 ====================
+
+Title: Trace preview for function `setup_logger`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\logger.py
+Line: 5
+Code: def setup_logger(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: setup_logger
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 6
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 41 ====================
+
+Title: Trace preview for function `_cases`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\demo_cases.py
+Line: 29
+Code: def _cases(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: _cases
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 2
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 42 ====================
+
+Title: Trace preview for function `checkout`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\demo_cases.py
+Line: 5
+Code: def checkout(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: checkout
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 1
+- Function calls found: 1
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 43 ====================
+
+Title: Trace preview for function `checkout_context`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\demo_cases.py
+Line: 17
+Code: def checkout_context(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: checkout_context
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 0
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 44 ====================
+
+Title: Trace preview for function `checkout_related_functions`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\demo_cases.py
+Line: 25
+Code: def checkout_related_functions(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: checkout_related_functions
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 0
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 45 ====================
+
+Title: Trace preview for function `get_demo_case`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\demo_cases.py
+Line: 39
+Code: def get_demo_case(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: get_demo_case
+- Required parameters: 1
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 2
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 46 ====================
+
+Title: Trace preview for function `get_discount`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\demo_cases.py
+Line: 1
+Code: def get_discount(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: get_discount
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 0
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 47 ====================
+
+Title: Trace preview for function `list_demo_cases`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\demo_cases.py
+Line: 43
+Code: def list_demo_cases(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: list_demo_cases
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 3
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 48 ====================
+
+Title: Trace preview for function `_base_report`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\explainer.py
+Line: 4
+Code: def _base_report(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: _base_report
+- Required parameters: 2
+- For-loops found: 1
+- While-loops found: 0
+- If-branches found: 2
+- Function calls found: 5
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 49 ====================
+
+Title: Trace preview for function `explain_attribute_error`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\explainer.py
+Line: 211
+Code: def explain_attribute_error(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: explain_attribute_error
+- Required parameters: 1
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 1
+- Function calls found: 1
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 50 ====================
+
+Title: Trace preview for function `explain_error`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\explainer.py
+Line: 274
+Code: def explain_error(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: explain_error
+- Required parameters: 2
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 1
+- Function calls found: 3
+- Return statements found: 2
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 51 ====================
+
+Title: Trace preview for function `explain_index_error`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\explainer.py
+Line: 96
+Code: def explain_index_error(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: explain_index_error
+- Required parameters: 1
+- For-loops found: 1
+- While-loops found: 0
+- If-branches found: 2
+- Function calls found: 6
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 52 ====================
+
+Title: Trace preview for function `explain_key_error`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\explainer.py
+Line: 166
+Code: def explain_key_error(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: explain_key_error
+- Required parameters: 1
+- For-loops found: 1
+- While-loops found: 0
+- If-branches found: 1
+- Function calls found: 6
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 53 ====================
+
+Title: Trace preview for function `explain_type_error`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\explainer.py
+Line: 33
+Code: def explain_type_error(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: explain_type_error
+- Required parameters: 1
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 1
+- Function calls found: 1
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 54 ====================
+
+Title: Trace preview for function `get_function_from_module`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\file_loader.py
+Line: 24
+Code: def get_function_from_module(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: get_function_from_module
+- Required parameters: 2
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 2
+- Function calls found: 5
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 55 ====================
+
+Title: Trace preview for function `get_zero_arg_functions`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\file_loader.py
+Line: 36
+Code: def get_zero_arg_functions(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: get_zero_arg_functions
+- Required parameters: 1
+- For-loops found: 1
+- While-loops found: 0
+- If-branches found: 2
+- Function calls found: 5
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 56 ====================
+
+Title: Trace preview for function `load_module_from_file`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\file_loader.py
+Line: 6
+Code: def load_module_from_file(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: load_module_from_file
+- Required parameters: 1
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 3
+- Function calls found: 8
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 57 ====================
+
+Title: Trace preview for function `inspect_function`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\inspector.py
+Line: 53
+Code: def inspect_function(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: inspect_function
+- Required parameters: 2
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 2
+- Function calls found: 5
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 58 ====================
+
+Title: Trace preview for function `setup_logger`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\logger.py
+Line: 5
+Code: def setup_logger(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: setup_logger
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 6
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 59 ====================
+
+Title: Trace preview for function `analyze_optimization`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\optimizer.py
+Line: 5
+Code: def analyze_optimization(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: analyze_optimization
+- Required parameters: 3
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 1
+- Function calls found: 6
+- Return statements found: 3
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 60 ====================
+
+Title: Trace preview for function `analyze_function`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\runner.py
+Line: 13
+Code: def analyze_function(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: analyze_function
+- Required parameters: 1
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 3
+- Function calls found: 15
+- Return statements found: 2
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 61 ====================
+
+Title: Trace preview for function `explain_error`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\explainer.py
+Line: 274
+Code: def explain_error(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: explain_error
+- Required parameters: 2
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 1
+- Function calls found: 3
+- Return statements found: 2
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 62 ====================
+
+Title: Trace preview for function `export_report_json`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\reporting\exporter.py
+Line: 14
+Code: def export_report_json(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: export_report_json
+- Required parameters: 2
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 4
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 63 ====================
+
+Title: Trace preview for function `export_report_text`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\reporting\exporter.py
+Line: 9
+Code: def export_report_text(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: export_report_text
+- Required parameters: 2
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 3
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 64 ====================
+
+Title: Trace preview for function `format_report`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\reporting\formatter.py
+Line: 4
+Code: def format_report(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: format_report
+- Required parameters: 1
+- For-loops found: 13
+- While-loops found: 0
+- If-branches found: 20
+- Function calls found: 36
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: manual review recommended
+
+Optimization Notes:
+- This function contains loop structures that may deserve closer inspection.
+
+Code Inspection Findings:
+- Multiple for-loops detected. Review for possible nested-loop inefficiency.
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 65 ====================
+
+Title: Trace preview for function `inspect_function`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\inspector.py
+Line: 53
+Code: def inspect_function(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: inspect_function
+- Required parameters: 2
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 2
+- Function calls found: 5
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 66 ====================
+
+Title: Trace preview for function `trace_branches`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\branch_tracer.py
+Line: 110
+Code: def trace_branches(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: trace_branches
+- Required parameters: 2
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 1
+- Function calls found: 7
+- Return statements found: 2
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 67 ====================
+
+Title: Trace preview for function `trace_function_calls`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\call_tracer.py
+Line: 52
+Code: def trace_function_calls(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: trace_function_calls
+- Required parameters: 2
+- For-loops found: 2
+- While-loops found: 0
+- If-branches found: 3
+- Function calls found: 15
+- Return statements found: 2
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: manual review recommended
+
+Optimization Notes:
+- This function contains loop structures that may deserve closer inspection.
+
+Code Inspection Findings:
+- Multiple for-loops detected. Review for possible nested-loop inefficiency.
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 68 ====================
+
+Title: Trace preview for function `trace_variables`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\tracer.py
+Line: 24
+Code: def trace_variables(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: trace_variables
+- Required parameters: 2
+- For-loops found: 1
+- While-loops found: 0
+- If-branches found: 2
+- Function calls found: 10
+- Return statements found: 2
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 69 ====================
+
+Title: Trace preview for function `_count_nodes`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\runtime_scanner.py
+Line: 63
+Code: def _count_nodes(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: _count_nodes
+- Required parameters: 2
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 3
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 70 ====================
+
+Title: Trace preview for function `build_trace_report`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\runtime_scanner.py
+Line: 67
+Code: def build_trace_report(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: build_trace_report
+- Required parameters: 1
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 5
+- Function calls found: 22
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 71 ====================
+
+Title: Trace preview for function `find_safe_functions`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\runtime_scanner.py
+Line: 24
+Code: def find_safe_functions(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: find_safe_functions
+- Required parameters: 2
+- For-loops found: 1
+- While-loops found: 0
+- If-branches found: 1
+- Function calls found: 10
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 72 ====================
+
+Title: Trace preview for function `load_module_from_file`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\runtime_scanner.py
+Line: 10
+Code: def load_module_from_file(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: load_module_from_file
+- Required parameters: 1
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 1
+- Function calls found: 3
+- Return statements found: 3
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 73 ====================
+
+Title: Trace preview for function `load_settings`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\config\settings.py
+Line: 42
+Code: def load_settings(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: load_settings
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 1
+- Function calls found: 5
+- Return statements found: 2
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 74 ====================
+
+Title: Trace preview for function `scan_runtime`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\runtime_scanner.py
+Line: 145
+Code: def scan_runtime(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: scan_runtime
+- Required parameters: 1
+- For-loops found: 2
+- While-loops found: 0
+- If-branches found: 2
+- Function calls found: 9
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: manual review recommended
+
+Optimization Notes:
+- This function contains loop structures that may deserve closer inspection.
+
+Code Inspection Findings:
+- Multiple for-loops detected. Review for possible nested-loop inefficiency.
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 75 ====================
+
+Title: Trace preview for function `run_with_timeout`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\safe_executor.py
+Line: 18
+Code: def run_with_timeout(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: run_with_timeout
+- Required parameters: 1
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 2
+- Function calls found: 4
+- Return statements found: 3
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 76 ====================
+
+Title: Trace preview for function `load_settings`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\config\settings.py
+Line: 42
+Code: def load_settings(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: load_settings
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 1
+- Function calls found: 5
+- Return statements found: 2
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 77 ====================
+
+Title: Trace preview for function `scan_project`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\scanner.py
+Line: 89
+Code: def scan_project(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: scan_project
+- Required parameters: 1
+- For-loops found: 1
+- While-loops found: 0
+- If-branches found: 1
+- Function calls found: 7
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 78 ====================
+
+Title: Trace preview for function `scan_python_file`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\scanner.py
+Line: 44
+Code: def scan_python_file(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: scan_python_file
+- Required parameters: 1
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 1
+- Function calls found: 11
+- Return statements found: 2
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 79 ====================
+
+Title: Trace preview for function `trace_variables`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\tracer.py
+Line: 24
+Code: def trace_variables(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: trace_variables
+- Required parameters: 2
+- For-loops found: 1
+- While-loops found: 0
+- If-branches found: 2
+- Function calls found: 10
+- Return statements found: 2
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 80 ====================
+
+Title: Trace preview for function `add_basic_verification`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\verifier.py
+Line: 4
+Code: def add_basic_verification(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: add_basic_verification
+- Required parameters: 1
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 4
+- Function calls found: 0
+- Return statements found: 5
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 81 ====================
+
+Title: Trace preview for function `verify_fix`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\verifier.py
+Line: 44
+Code: def verify_fix(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: verify_fix
+- Required parameters: 3
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 2
+- Function calls found: 3
+- Return statements found: 4
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 82 ====================
+
+Title: Trace preview for function `compare_versions`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\versioning.py
+Line: 4
+Code: def compare_versions(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: compare_versions
+- Required parameters: 3
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 4
+- Function calls found: 4
+- Return statements found: 4
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 83 ====================
+
+Title: Trace preview for function `asdict`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Users\Josep\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py
+Line: 1338
+Code: def asdict(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: asdict
+- Required parameters: 1
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 1
+- Function calls found: 3
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+Notes:
+- Docstring: Return the fields of a dataclass instance as a new dictionary mapping
+field names to field values.
+
+Example usage::
+
+  @dataclass
+  class C:
+      x: int
+      y: int
+
+  c = C(1, 2)
+  assert asdict(c) == {'x': 1, 'y': 2}
+
+If given, 'dict_factory' will be used instead of built-in dict.
+The function applies recursively to field values that are
+dataclass instances. This will also look into built-in containers:
+tuples, lists, and dicts. Other objects are copied with 'copy.deepcopy()'.
+
+==================== Report 84 ====================
+
+Title: Trace preview for function `export_report_json`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\reporting\exporter.py
+Line: 14
+Code: def export_report_json(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: export_report_json
+- Required parameters: 2
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 4
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 85 ====================
+
+Title: Trace preview for function `export_report_text`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\reporting\exporter.py
+Line: 9
+Code: def export_report_text(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: export_report_text
+- Required parameters: 2
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 3
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 86 ====================
+
+Title: Trace preview for function `export_reports_json`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\reporting\exporter.py
+Line: 31
+Code: def export_reports_json(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: export_reports_json
+- Required parameters: 2
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 4
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 87 ====================
+
+Title: Trace preview for function `export_reports_text`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\reporting\exporter.py
+Line: 20
+Code: def export_reports_text(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: export_reports_text
+- Required parameters: 2
+- For-loops found: 1
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 7
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 88 ====================
+
+Title: Trace preview for function `format_report`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\reporting\formatter.py
+Line: 4
+Code: def format_report(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: format_report
+- Required parameters: 1
+- For-loops found: 13
+- While-loops found: 0
+- If-branches found: 20
+- Function calls found: 36
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: manual review recommended
+
+Optimization Notes:
+- This function contains loop structures that may deserve closer inspection.
+
+Code Inspection Findings:
+- Multiple for-loops detected. Review for possible nested-loop inefficiency.
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 89 ====================
+
+Title: Trace preview for function `format_report`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\reporting\formatter.py
+Line: 4
+Code: def format_report(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: format_report
+- Required parameters: 1
+- For-loops found: 13
+- While-loops found: 0
+- If-branches found: 20
+- Function calls found: 36
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: manual review recommended
+
+Optimization Notes:
+- This function contains loop structures that may deserve closer inspection.
+
+Code Inspection Findings:
+- Multiple for-loops detected. Review for possible nested-loop inefficiency.
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 90 ====================
+
+Title: Trace preview for function `dataclass`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Users\Josep\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py
+Line: 1277
+Code: def dataclass(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: dataclass
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 1
+- Function calls found: 2
+- Return statements found: 3
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Notes:
+- Docstring: Add dunder methods based on the fields defined in the class.
+
+Examines PEP 526 __annotations__ to determine fields.
+
+If init is true, an __init__() method is added to the class. If repr
+is true, a __repr__() method is added. If order is true, rich
+comparison dunder methods are added. If unsafe_hash is true, a
+__hash__() method is added. If frozen is true, fields may not be
+assigned to after instance creation. If match_args is true, the
+__match_args__ tuple is added. If kw_only is true, then by default
+all fields are keyword-only. If slots is true, a new class with a
+__slots__ attribute is returned.
+
+==================== Report 91 ====================
+
+Title: Trace preview for function `field`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Users\Josep\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py
+Line: 383
+Code: def field(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: field
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 1
+- Function calls found: 2
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Notes:
+- Docstring: Return an object to identify dataclass fields.
+
+default is the default value of the field.  default_factory is a
+0-argument function called to initialize a field's value.  If init
+is true, the field will be a parameter to the class's __init__()
+function.  If repr is true, the field will be included in the
+object's repr().  If hash is true, the field will be included in the
+object's hash().  If compare is true, the field will be used in
+comparison functions.  metadata, if specified, must be a mapping
+which is stored but not otherwise examined by dataclass.  If kw_only
+is true, the field will become a keyword-only parameter to
+__init__().
+
+It is an error to specify both default and default_factory.
+
+==================== Report 92 ====================
+
+Title: Trace preview for function `test_analyze_file_json_output_for_failing_function`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\tests\test_analyze_file_json_output.py
+Line: 6
+Code: def test_analyze_file_json_output_for_failing_function(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: test_analyze_file_json_output_for_failing_function
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 2
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 93 ====================
+
+Title: Trace preview for function `test_analyze_file_json_output_for_healthy_function`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\tests\test_analyze_file_json_output.py
+Line: 30
+Code: def test_analyze_file_json_output_for_healthy_function(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: test_analyze_file_json_output_for_healthy_function
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 2
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 94 ====================
+
+Title: Trace preview for function `test_analyze_file_json_output_for_missing_function`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\tests\test_analyze_file_json_output.py
+Line: 54
+Code: def test_analyze_file_json_output_for_missing_function(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: test_analyze_file_json_output_for_missing_function
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 2
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 95 ====================
+
+Title: Trace preview for function `find_bug_chains`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\bug_chain.py
+Line: 19
+Code: def find_bug_chains(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: find_bug_chains
+- Required parameters: 2
+- For-loops found: 2
+- While-loops found: 1
+- If-branches found: 6
+- Function calls found: 13
+- Return statements found: 3
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: manual review recommended
+
+Optimization Notes:
+- This function contains loop structures that may deserve closer inspection.
+
+Code Inspection Findings:
+- Multiple for-loops detected. Review for possible nested-loop inefficiency.
+
+Potential Bug Risks:
+- Contains a while-loop. Review manually for termination conditions.
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 96 ====================
+
+Title: Trace preview for function `test_find_bug_chains_finds_expected_chain`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\tests\test_bug_chain.py
+Line: 9
+Code: def test_find_bug_chains_finds_expected_chain(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: test_find_bug_chains_finds_expected_chain
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 1
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 97 ====================
+
+Title: Trace preview for function `test_find_bug_chains_for_unknown_function_returns_empty`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\tests\test_bug_chain.py
+Line: 15
+Code: def test_find_bug_chains_for_unknown_function_returns_empty(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: test_find_bug_chains_for_unknown_function_returns_empty
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 1
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 98 ====================
+
+Title: Trace preview for function `test_find_bug_chains_returns_list`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\tests\test_bug_chain.py
+Line: 4
+Code: def test_find_bug_chains_returns_list(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: test_find_bug_chains_returns_list
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 2
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 99 ====================
+
+Title: Trace preview for function `build_call_graph`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\call_graph.py
+Line: 30
+Code: def build_call_graph(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: build_call_graph
+- Required parameters: 1
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 5
+- Return statements found: 2
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 100 ====================
+
+Title: Trace preview for function `test_build_call_graph_contains_expected_edges`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\tests\test_call_graph.py
+Line: 9
+Code: def test_build_call_graph_contains_expected_edges(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: test_build_call_graph_contains_expected_edges
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 1
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 101 ====================
+
+Title: Trace preview for function `test_build_call_graph_handles_leaf_function`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\tests\test_call_graph.py
+Line: 20
+Code: def test_build_call_graph_handles_leaf_function(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: test_build_call_graph_handles_leaf_function
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 2
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 102 ====================
+
+Title: Trace preview for function `test_build_call_graph_returns_dict`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\tests\test_call_graph.py
+Line: 4
+Code: def test_build_call_graph_returns_dict(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: test_build_call_graph_returns_dict
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 2
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 103 ====================
+
+Title: Trace preview for function `test_analyze_file_command_runs`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\tests\test_cli.py
+Line: 17
+Code: def test_analyze_file_command_runs(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: test_analyze_file_command_runs
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 1
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 104 ====================
+
+Title: Trace preview for function `test_list_functions_command`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\tests\test_cli.py
+Line: 5
+Code: def test_list_functions_command(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: test_list_functions_command
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 1
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 105 ====================
+
+Title: Trace preview for function `test_bug_chain_json_output`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\tests\test_cli_json_output.py
+Line: 33
+Code: def test_bug_chain_json_output(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: test_bug_chain_json_output
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 2
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 106 ====================
+
+Title: Trace preview for function `test_call_graph_json_output`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\tests\test_cli_json_output.py
+Line: 19
+Code: def test_call_graph_json_output(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: test_call_graph_json_output
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 2
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 107 ====================
+
+Title: Trace preview for function `test_list_functions_json_output`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\tests\test_cli_json_output.py
+Line: 6
+Code: def test_list_functions_json_output(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: test_list_functions_json_output
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 2
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 108 ====================
+
+Title: Trace preview for function `test_analyze_file_bad_function_returns_input_error`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\tests\test_exist_codes.py
+Line: 23
+Code: def test_analyze_file_bad_function_returns_input_error(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: test_analyze_file_bad_function_returns_input_error
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 1
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 109 ====================
+
+Title: Trace preview for function `test_analyze_file_returns_analysis_exit_code`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\tests\test_exist_codes.py
+Line: 14
+Code: def test_analyze_file_returns_analysis_exit_code(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: test_analyze_file_returns_analysis_exit_code
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 1
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 110 ====================
+
+Title: Trace preview for function `test_list_functions_success_exit_code`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\tests\test_exist_codes.py
+Line: 5
+Code: def test_list_functions_success_exit_code(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: test_list_functions_success_exit_code
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 1
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 111 ====================
+
+Title: Trace preview for function `get_function_from_module`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\file_loader.py
+Line: 24
+Code: def get_function_from_module(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: get_function_from_module
+- Required parameters: 2
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 2
+- Function calls found: 5
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 112 ====================
+
+Title: Trace preview for function `get_zero_arg_functions`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\file_loader.py
+Line: 36
+Code: def get_zero_arg_functions(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: get_zero_arg_functions
+- Required parameters: 1
+- For-loops found: 1
+- While-loops found: 0
+- If-branches found: 2
+- Function calls found: 5
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 113 ====================
+
+Title: Trace preview for function `load_module_from_file`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\file_loader.py
+Line: 6
+Code: def load_module_from_file(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: load_module_from_file
+- Required parameters: 1
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 3
+- Function calls found: 8
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 114 ====================
+
+Title: Trace preview for function `test_get_function_from_module`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\tests\test_file_loader.py
+Line: 9
+Code: def test_get_function_from_module(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: test_get_function_from_module
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 2
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 115 ====================
+
+Title: Trace preview for function `test_get_zero_arg_functions`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\tests\test_file_loader.py
+Line: 15
+Code: def test_get_zero_arg_functions(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: test_get_zero_arg_functions
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 2
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 116 ====================
+
+Title: Trace preview for function `test_load_module_from_file`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\tests\test_file_loader.py
+Line: 4
+Code: def test_load_module_from_file(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: test_load_module_from_file
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 1
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 117 ====================
+
+Title: Trace preview for function `test_bug_chain_command`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\tests\test_new_cli_commands.py
+Line: 17
+Code: def test_bug_chain_command(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: test_bug_chain_command
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 1
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 118 ====================
+
+Title: Trace preview for function `test_call_graph_command`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\tests\test_new_cli_commands.py
+Line: 5
+Code: def test_call_graph_command(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: test_call_graph_command
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 1
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 119 ====================
+
+Title: Trace preview for function `scan_project`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\core\scanner.py
+Line: 89
+Code: def scan_project(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: scan_project
+- Required parameters: 1
+- For-loops found: 1
+- While-loops found: 0
+- If-branches found: 1
+- Function calls found: 7
+- Return statements found: 1
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+Potential Bug Risks:
+- Requires input arguments, so it was not eligible for automatic execution.
+
+==================== Report 120 ====================
+
+Title: Trace preview for function `test_scan_project_contains_sample_target_report`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\tests\test_scanner.py
+Line: 10
+Code: def test_scan_project_contains_sample_target_report(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: test_scan_project_contains_sample_target_report
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 2
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 121 ====================
+
+Title: Trace preview for function `test_scan_project_returns_reports`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\tests\test_scanner.py
+Line: 4
+Code: def test_scan_project_returns_reports(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: test_scan_project_returns_reports
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 3
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 122 ====================
+
+Title: Trace preview for function `test_scan_json_stdout`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\tests\test_scan_trace_json_stdout.py
+Line: 6
+Code: def test_scan_json_stdout(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: test_scan_json_stdout
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 3
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected
+
+==================== Report 123 ====================
+
+Title: Trace preview for function `test_trace_json_stdout`
+Problem Type: RuntimeTracePreview
+Severity: info
+
+Failure Location:
+File: C:\Project Explainable\tests\test_scan_trace_json_stdout.py
+Line: 20
+Code: def test_trace_json_stdout(...)
+
+Explanation:
+This trace command is running in safe preview mode. It inspects the function structure without executing it.
+
+Observed Facts:
+- Function name: test_trace_json_stdout
+- Required parameters: 0
+- For-loops found: 0
+- While-loops found: 0
+- If-branches found: 0
+- Function calls found: 3
+- Return statements found: 0
+
+Suspected Cause:
+Execution was intentionally skipped to avoid hangs, infinite loops, and side effects during project-wide tracing.
+
+Confidence: high
+
+Suggested Next Action:
+Review this function manually or use analyze-file if you want real runtime analysis.
+
+Optimization Status: no obvious high-risk execution pattern detected

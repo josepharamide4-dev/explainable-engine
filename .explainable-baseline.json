@@ -1,0 +1,4159 @@
+{
+  "version": 1,
+  "path": ".",
+  "finding_count": 519,
+  "findings": [
+    {
+      "id": "",
+      "file_name": "config\\settings.py",
+      "line": 35,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `deep_merge()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "config\\settings.py",
+      "line": 35,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `isinstance()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "config\\settings.py",
+      "line": 35,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `items()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\baseline.py",
+      "line": 25,
+      "category": "",
+      "severity": "high",
+      "message": "Nested loop detected \u2014 possible O(n\u00b2) performance issue."
+    },
+    {
+      "id": "",
+      "file_name": "core\\baseline.py",
+      "line": 25,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `_report_finding_entry()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\baseline.py",
+      "line": 25,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\baseline.py",
+      "line": 26,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `_report_finding_entry()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\baseline.py",
+      "line": 26,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\baseline.py",
+      "line": 27,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\baseline.py",
+      "line": 100,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\baseline.py",
+      "line": 100,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `build_code_context()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\baseline.py",
+      "line": 100,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `dict()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\baseline.py",
+      "line": 100,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `get()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\baseline.py",
+      "line": 108,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\baseline.py",
+      "line": 166,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\baseline.py",
+      "line": 168,
+      "category": "",
+      "severity": "high",
+      "message": "Nested loop detected \u2014 possible O(n\u00b2) performance issue."
+    },
+    {
+      "id": "",
+      "file_name": "core\\baseline.py",
+      "line": 168,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\baseline.py",
+      "line": 168,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `get()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\baseline.py",
+      "line": 168,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `join()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\baseline.py",
+      "line": 169,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\baseline.py",
+      "line": 173,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\baseline.py",
+      "line": 185,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\baseline.py",
+      "line": 187,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\baseline.py",
+      "line": 189,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\baseline.py",
+      "line": 192,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\baseline.py",
+      "line": 193,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\baseline.py",
+      "line": 194,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\baseline.py",
+      "line": 200,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\baseline.py",
+      "line": 201,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\baseline.py",
+      "line": 202,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\baseline.py",
+      "line": 208,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\baseline.py",
+      "line": 210,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\baseline.py",
+      "line": 211,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\branch_tracer.py",
+      "line": 17,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\branch_tracer.py",
+      "line": 22,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\branch_tracer.py",
+      "line": 26,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\branch_tracer.py",
+      "line": 30,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\branch_tracer.py",
+      "line": 117,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\branch_tracer.py",
+      "line": 126,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\bug_chain.py",
+      "line": 9,
+      "category": "",
+      "severity": "high",
+      "message": "Nested loop detected \u2014 possible O(n\u00b2) performance issue."
+    },
+    {
+      "id": "",
+      "file_name": "core\\bug_chain.py",
+      "line": 9,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `add()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\bug_chain.py",
+      "line": 9,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `items()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\bug_chain.py",
+      "line": 9,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `set()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\bug_chain.py",
+      "line": 13,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `add()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\bug_chain.py",
+      "line": 33,
+      "category": "",
+      "severity": "high",
+      "message": "While-loop detected \u2014 review termination and repeated work carefully."
+    },
+    {
+      "id": "",
+      "file_name": "core\\bug_chain.py",
+      "line": 33,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\bug_chain.py",
+      "line": 33,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `appendleft()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\bug_chain.py",
+      "line": 33,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `get()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\bug_chain.py",
+      "line": 33,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `popleft()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\bug_chain.py",
+      "line": 33,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `set()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\bug_chain.py",
+      "line": 39,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\bug_chain.py",
+      "line": 43,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `appendleft()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\bug_chain.py",
+      "line": 50,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\bug_chain.py",
+      "line": 56,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `add()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\bug_chain.py",
+      "line": 56,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\bug_chain.py",
+      "line": 56,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `tuple()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\bug_chain.py",
+      "line": 60,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\call_tracer.py",
+      "line": 16,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\call_tracer.py",
+      "line": 16,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `isinstance()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\call_tracer.py",
+      "line": 18,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\call_tracer.py",
+      "line": 32,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `hasattr()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\call_tracer.py",
+      "line": 32,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `isinstance()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\call_tracer.py",
+      "line": 32,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `unparse()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\call_tracer.py",
+      "line": 32,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `walk()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\call_tracer.py",
+      "line": 60,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\call_tracer.py",
+      "line": 68,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `CallAssignmentTracer()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\call_tracer.py",
+      "line": 68,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\call_tracer.py",
+      "line": 68,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `getsource()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\call_tracer.py",
+      "line": 68,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `parse()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\call_tracer.py",
+      "line": 68,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `type()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\call_tracer.py",
+      "line": 68,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `update()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\call_tracer.py",
+      "line": 68,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `visit()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\call_tracer.py",
+      "line": 76,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\call_tracer.py",
+      "line": 82,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\call_tracer.py",
+      "line": 97,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\call_tracer.py",
+      "line": 102,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 593,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `get()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 644,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 644,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `read_text()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 644,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `splitlines()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 644,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `startswith()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 644,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `strip()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 648,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 668,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `Path()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 668,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `any()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 668,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 668,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `as_posix()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 668,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `matches_path_pattern()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 668,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `relative_to()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 668,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `resolve()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 684,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 716,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `extend()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 716,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `get()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 726,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 726,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `len()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 727,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 737,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `get()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 839,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 845,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 847,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 850,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 852,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 868,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 870,
+      "category": "",
+      "severity": "high",
+      "message": "Nested loop detected \u2014 possible O(n\u00b2) performance issue."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 870,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 870,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `get()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 870,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `render_team_context_text()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 870,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `splitlines()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 871,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 882,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 882,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `splitlines()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 883,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 900,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 909,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 910,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 912,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 916,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 917,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 919,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 928,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1029,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `Path()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1029,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `add_check()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1029,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `exists()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1068,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1068,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `get()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1068,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `upper()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1069,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1071,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1103,
+      "category": "",
+      "severity": "high",
+      "message": "Nested loop detected \u2014 possible O(n\u00b2) performance issue."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1103,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1103,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `get()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1103,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `render_team_context_text()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1103,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `splitlines()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1104,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1109,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1109,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `splitlines()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1110,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1114,
+      "category": "",
+      "severity": "high",
+      "message": "Nested loop detected \u2014 possible O(n\u00b2) performance issue."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1114,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1114,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `get()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1114,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `render_team_context_text()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1114,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `splitlines()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1115,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1118,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1121,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1121,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `splitlines()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1122,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1152,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `enrich_report_context()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1152,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `enumerate()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1152,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `format_report()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1152,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `get()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1152,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `print()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1152,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `render_team_context_text()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1201,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `enumerate()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1201,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `format_report()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1201,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `print()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1321,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `print()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1348,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1348,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `extend()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1348,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `items()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1348,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `sorted()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1351,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1355,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1379,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `enumerate()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1379,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `join()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1379,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `print()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1422,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `get()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1422,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `print()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\cli.py",
+      "line": 1422,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `render_team_context_text()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\context_enrichment.py",
+      "line": 66,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `_path_matches()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\context_enrichment.py",
+      "line": 66,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `any()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\context_enrichment.py",
+      "line": 66,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\context_enrichment.py",
+      "line": 66,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `get_all_work_items()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\context_enrichment.py",
+      "line": 66,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `list()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\context_enrichment.py",
+      "line": 71,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\context_enrichment.py",
+      "line": 98,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\context_enrichment.py",
+      "line": 98,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `build_code_context()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\context_enrichment.py",
+      "line": 98,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `dict()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\context_enrichment.py",
+      "line": 98,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `get()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\context_enrichment.py",
+      "line": 106,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\context_enrichment.py",
+      "line": 123,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\context_enrichment.py",
+      "line": 123,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `build_code_context()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\context_enrichment.py",
+      "line": 123,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `dict()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\context_enrichment.py",
+      "line": 123,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `get()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\context_enrichment.py",
+      "line": 131,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\context_enrichment.py",
+      "line": 149,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\context_enrichment.py",
+      "line": 152,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\context_enrichment.py",
+      "line": 154,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\context_enrichment.py",
+      "line": 156,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\context_enrichment.py",
+      "line": 159,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\context_enrichment.py",
+      "line": 160,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\context_enrichment.py",
+      "line": 161,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\context_enrichment.py",
+      "line": 167,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\context_enrichment.py",
+      "line": 168,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\context_enrichment.py",
+      "line": 169,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\explainer.py",
+      "line": 21,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\explainer.py",
+      "line": 24,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\explainer.py",
+      "line": 27,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\explainer.py",
+      "line": 27,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `items()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\explainer.py",
+      "line": 28,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\explainer.py",
+      "line": 110,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\explainer.py",
+      "line": 110,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `hasattr()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\explainer.py",
+      "line": 110,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `items()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\explainer.py",
+      "line": 110,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `len()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\explainer.py",
+      "line": 113,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\explainer.py",
+      "line": 180,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\explainer.py",
+      "line": 180,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `isinstance()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\explainer.py",
+      "line": 180,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `items()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\explainer.py",
+      "line": 180,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `keys()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\explainer.py",
+      "line": 180,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `list()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\explainer.py",
+      "line": 182,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\file_loader.py",
+      "line": 39,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `getmembers()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\file_loader.py",
+      "line": 39,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `isfunction()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\file_loader.py",
+      "line": 39,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `len()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\file_loader.py",
+      "line": 39,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `signature()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\file_loader.py",
+      "line": 39,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `values()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\inspector.py",
+      "line": 15,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\inspector.py",
+      "line": 15,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `isinstance()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\inspector.py",
+      "line": 15,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `walk()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\inspector.py",
+      "line": 17,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\inspector.py",
+      "line": 26,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\inspector.py",
+      "line": 35,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\inspector.py",
+      "line": 44,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\inspector.py",
+      "line": 44,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `isinstance()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\inspector.py",
+      "line": 46,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\inspector.py",
+      "line": 70,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\logger.py",
+      "line": 19,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `isinstance()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\logger.py",
+      "line": 19,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `setLevel()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\pr_comment.py",
+      "line": 16,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\pr_comment.py",
+      "line": 18,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\pr_comment.py",
+      "line": 20,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\pr_comment.py",
+      "line": 23,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\pr_comment.py",
+      "line": 24,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\pr_comment.py",
+      "line": 25,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\pr_comment.py",
+      "line": 31,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\pr_comment.py",
+      "line": 32,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\pr_comment.py",
+      "line": 33,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\pr_comment.py",
+      "line": 62,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\pr_comment.py",
+      "line": 63,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\pr_comment.py",
+      "line": 64,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `_render_team_context_block()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\pr_comment.py",
+      "line": 64,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\pr_comment.py",
+      "line": 64,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `extend()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\pr_comment.py",
+      "line": 64,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `get()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\pr_comment.py",
+      "line": 65,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\pr_comment.py",
+      "line": 70,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\pr_comment.py",
+      "line": 72,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\pr_comment.py",
+      "line": 73,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\pr_comment.py",
+      "line": 74,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\pr_comment.py",
+      "line": 75,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\pr_comment.py",
+      "line": 78,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\pr_comment.py",
+      "line": 79,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\pr_comment.py",
+      "line": 80,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\pr_comment.py",
+      "line": 81,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\pr_comment.py",
+      "line": 85,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\pr_comment.py",
+      "line": 87,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\pr_comment.py",
+      "line": 88,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\pr_comment.py",
+      "line": 89,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\pr_comment.py",
+      "line": 90,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\runtime_scanner.py",
+      "line": 28,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\runtime_scanner.py",
+      "line": 28,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `getdoc()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\runtime_scanner.py",
+      "line": 28,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `getsourcefile()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\runtime_scanner.py",
+      "line": 28,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `getsourcelines()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\runtime_scanner.py",
+      "line": 28,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `isfunction()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\runtime_scanner.py",
+      "line": 28,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `len()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\runtime_scanner.py",
+      "line": 28,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `signature()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\runtime_scanner.py",
+      "line": 28,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `str()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\runtime_scanner.py",
+      "line": 28,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `values()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\runtime_scanner.py",
+      "line": 53,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\runtime_scanner.py",
+      "line": 122,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\runtime_scanner.py",
+      "line": 127,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\runtime_scanner.py",
+      "line": 145,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\runtime_scanner.py",
+      "line": 150,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\runtime_scanner.py",
+      "line": 155,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\runtime_scanner.py",
+      "line": 161,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\runtime_scanner.py",
+      "line": 183,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `build_trace_report()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\runtime_scanner.py",
+      "line": 183,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `extend()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\runtime_scanner.py",
+      "line": 183,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `find_safe_functions()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\runtime_scanner.py",
+      "line": 183,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `load_module_from_file()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 16,
+      "category": "",
+      "severity": "high",
+      "message": "Nested loop detected \u2014 possible O(n\u00b2) performance issue."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 16,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `isinstance()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 16,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `iter_child_nodes()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 16,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `walk()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 21,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `isinstance()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 21,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `walk()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 37,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `_get_call_name()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 37,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 37,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `isinstance()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 37,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `walk()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 41,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 43,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `_add_finding()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 43,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `set()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 43,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `sorted()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 60,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `_get_call_name()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 60,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 60,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `isinstance()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 60,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `walk()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 64,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 66,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `_add_finding()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 66,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `set()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 66,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `sorted()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 87,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 88,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 152,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 172,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 173,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 183,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 184,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 196,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `any()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 196,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 196,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `rglob()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 196,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `scan_python_file()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\scanner.py",
+      "line": 200,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\tracer.py",
+      "line": 14,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `isinstance()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\tracer.py",
+      "line": 31,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\tracer.py",
+      "line": 39,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\tracer.py",
+      "line": 39,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `keys()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\tracer.py",
+      "line": 42,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\tracer.py",
+      "line": 46,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\tracer.py",
+      "line": 53,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\work_cli.py",
+      "line": 34,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\work_cli.py",
+      "line": 34,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `int()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\work_cli.py",
+      "line": 34,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `replace()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\work_cli.py",
+      "line": 34,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `rsplit()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\work_cli.py",
+      "line": 34,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `strip()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\work_cli.py",
+      "line": 45,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 274,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `ValueError()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 274,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `add()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 274,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `get()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 274,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `isinstance()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 285,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `ValueError()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 285,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `add()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 285,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `get()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 285,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `isinstance()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 285,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `sorted()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 306,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `ValueError()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 306,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `add()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 306,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `get()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 306,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `isinstance()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 306,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `sorted()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 360,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `enumerate()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 367,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 385,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `get_all_work_items()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 395,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `enumerate()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 402,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 449,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 473,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `AssignmentEvent()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 473,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 473,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `utc_now_iso()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 475,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 476,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 489,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 490,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 502,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 531,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 532,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 543,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 553,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 630,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `get_all_notes()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 687,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 693,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 693,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `utc_now_iso()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 695,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 720,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `ValueError()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 720,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `_normalize_target_lines()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 720,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `_normalize_unique_paths()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 720,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `_normalize_unique_people()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 720,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `_normalize_unique_strings()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 720,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `bool()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 720,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `enumerate()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 720,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `extract_mentions()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 720,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `save_all_notes()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 720,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `sorted()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 720,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `strip()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 720,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `utc_now_iso()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 776,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `_note_visible_to_person()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 776,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `any()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 776,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 776,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `get()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 776,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `get_all_notes()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 796,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 814,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 816,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 818,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 821,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `extend()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 840,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 840,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `to_dict()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 841,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 843,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `sorted()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 861,
+      "category": "",
+      "severity": "high",
+      "message": "Nested loop detected \u2014 possible O(n\u00b2) performance issue."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 861,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 861,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `get()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 861,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `join()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 861,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `upper()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 863,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 866,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 867,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 870,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 870,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `get()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 870,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `join()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 879,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 880,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 881,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 882,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 883,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 884,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 885,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 886,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 887,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 888,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 890,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 892,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 900,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 903,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 903,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `join()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 904,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 905,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 906,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 907,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 908,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 909,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 910,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 911,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 912,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 913,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 914,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 915,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 938,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `add()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 938,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 938,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `normalize_person_name()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 943,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 952,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `add()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 952,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 952,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `strip()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 957,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 966,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `add()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 966,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 966,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `normalize_file_path()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 971,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 980,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `add()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 980,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 980,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `get()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 980,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `int()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 980,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `normalize_file_path()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "core\\worklog.py",
+      "line": 989,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\exporter.py",
+      "line": 24,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\exporter.py",
+      "line": 24,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `enumerate()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\exporter.py",
+      "line": 24,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `format_report()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\exporter.py",
+      "line": 25,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\exporter.py",
+      "line": 26,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\formatter.py",
+      "line": 33,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\formatter.py",
+      "line": 34,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\formatter.py",
+      "line": 36,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\formatter.py",
+      "line": 53,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\formatter.py",
+      "line": 54,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\formatter.py",
+      "line": 58,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\formatter.py",
+      "line": 59,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\formatter.py",
+      "line": 63,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\formatter.py",
+      "line": 64,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\formatter.py",
+      "line": 68,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\formatter.py",
+      "line": 69,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\formatter.py",
+      "line": 76,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\formatter.py",
+      "line": 77,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\formatter.py",
+      "line": 87,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\formatter.py",
+      "line": 88,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\formatter.py",
+      "line": 95,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\formatter.py",
+      "line": 96,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\formatter.py",
+      "line": 103,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\formatter.py",
+      "line": 104,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\formatter.py",
+      "line": 111,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\formatter.py",
+      "line": 112,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\formatter.py",
+      "line": 131,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\formatter.py",
+      "line": 132,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\formatter.py",
+      "line": 136,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\formatter.py",
+      "line": 137,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\formatter.py",
+      "line": 141,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\formatter.py",
+      "line": 142,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "reporting\\models.py",
+      "line": 94,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "sample_target.py",
+      "line": 28,
+      "category": "",
+      "severity": "high",
+      "message": "Nested loop detected \u2014 possible O(n\u00b2) performance issue."
+    },
+    {
+      "id": "",
+      "file_name": "sample_target.py",
+      "line": 28,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "sample_target.py",
+      "line": 28,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `range()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "sample_target.py",
+      "line": 29,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "sample_target.py",
+      "line": 29,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `range()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "sample_target.py",
+      "line": 30,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "sample_target.py",
+      "line": 38,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "sample_target.py",
+      "line": 38,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `expensive_lookup()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "sample_target.py",
+      "line": 38,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `range()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "sample_target.py",
+      "line": 39,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 286,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `get()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 338,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `extend()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 338,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `get()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 348,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 348,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `len()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 349,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 359,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `get()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 458,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 467,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 468,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 470,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 474,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `append()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 475,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 477,
+      "category": "",
+      "severity": "low",
+      "message": "List append detected \u2014 consider list comprehension if appropriate."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 505,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `enumerate()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 505,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `format_report()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 505,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `print()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 547,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `enumerate()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 547,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `format_report()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 547,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `print()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 667,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `print()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 694,
+      "category": "",
+      "severity": "high",
+      "message": "Nested loop detected \u2014 possible O(n\u00b2) performance issue."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 694,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `items()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 694,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `print()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 694,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `sorted()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 698,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `print()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 698,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `sorted()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 724,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `enumerate()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 724,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `join()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 724,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `print()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 810,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `get()` detected inside a loop \u2014 review for repeated expensive work."
+    },
+    {
+      "id": "",
+      "file_name": "tests\\test_perf_compare_exports.py",
+      "line": 810,
+      "category": "",
+      "severity": "medium",
+      "message": "Function call `print()` detected inside a loop \u2014 review for repeated expensive work."
+    }
+  ]
+}

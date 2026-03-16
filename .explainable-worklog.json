@@ -1,0 +1,75 @@
+{
+  "version": 2,
+  "project_members": [
+    {
+      "name": "Alice",
+      "role": "Engineer",
+      "active": true,
+      "influence_files": [
+        "core/scanner.py"
+      ],
+      "influence_finding_ids": [],
+      "notes": ""
+    }
+  ],
+  "tasks": [
+    {
+      "id": "TASK-1",
+      "title": "Scanner cleanup",
+      "status": "todo",
+      "primary_owner": "Joseph",
+      "assignees": [
+        "Joseph"
+      ],
+      "files": [
+        "core/scanner.py"
+      ],
+      "finding_ids": [],
+      "notes": "",
+      "blockers": [],
+      "collaborators": [],
+      "watchers": [],
+      "created_at": "2026-03-14T18:18:15+00:00",
+      "started_at": "",
+      "updated_at": "2026-03-14T18:18:15+00:00",
+      "completed_at": "",
+      "assignment_history": [
+        {
+          "action": "assigned",
+          "person": "Joseph",
+          "timestamp": "2026-03-14T18:18:15+00:00",
+          "reason": "Initial primary owner"
+        }
+      ],
+      "linked_note_ids": []
+    }
+  ],
+  "notes": [
+    {
+      "id": "NOTE-1",
+      "author": "Joseph",
+      "body": "Please review this loop @Alice",
+      "created_at": "2026-03-14T18:12:39+00:00",
+      "updated_at": "2026-03-14T18:12:39+00:00",
+      "visibility": "project",
+      "target_files": [
+        "core/scanner.py"
+      ],
+      "target_lines": [
+        {
+          "file": "core/scanner.py",
+          "line": 152
+        }
+      ],
+      "target_finding_ids": [],
+      "task_ids": [],
+      "mentions": [
+        "Alice"
+      ],
+      "shared_with": [],
+      "tags": [],
+      "handover_note": false,
+      "resolved": false
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+[scan]
+timeout = 2
+ignore = [
+    "venv",
+    ".venv",
+    "__pycache__",
+    ".git"
+]
+
+[analysis]
+detect_infinite_loops = true
+detect_none_errors = true
+detect_index_errors = true
+
+[report]
+format = "text"
+save_reports = true
+
+[perf]
+top = 5
+sort_by = "severity"
+ignore_file = ".explainableignore"
+include_file = ""

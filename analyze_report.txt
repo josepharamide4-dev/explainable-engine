@@ -1,0 +1,48 @@
+Title: Type mismatch during execution
+Problem Type: TypeError
+Severity: critical
+
+Failure Location:
+File: C:\Project Explainable\sample_target.py
+Line: 18
+Code: final_price = base_price * discount
+
+Explanation:
+An operation failed because a missing value was used where a real value was expected.
+
+Observed Facts:
+- Failing function: checkout
+- Original error message: unsupported operand type(s) for *: 'int' and 'NoneType'
+
+Suspected Cause:
+A variable with value None reached logic that expected a valid object or number.
+
+Confidence: medium
+
+Suggested Next Action:
+Check where the None value was introduced before this operation.
+
+Branch Trace:
+- Line 5: condition `discount is None` could not be evaluated from the available runtime values.
+
+Possible Solutions:
+- Add a check for None before performing the operation.
+- Ensure the variable is assigned a real numeric or object value earlier.
+- Use a fallback value only if that matches the intended behavior.
+
+Recommended Solution:
+Validate the value before the operation and trace where None was introduced.
+
+Possible Risks:
+- Using a fallback value may hide the real upstream data problem.
+- Only checking at the failure point may leave similar bugs elsewhere.
+
+Risk Level: medium
+
+Performance Severity Summary:
+- high=0
+- medium=0
+- low=0
+
+Notes:
+- Branch trace generated from function conditions and runtime values.

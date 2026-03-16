@@ -1,0 +1,2 @@
+[console_scripts]
+explainable = core.cli:run_cli

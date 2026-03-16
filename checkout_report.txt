@@ -1,0 +1,56 @@
+Title: Type mismatch during execution
+Problem Type: TypeError
+Severity: critical
+
+Failure Location:
+File: C:\Project Explainable\main.py
+Line: 13
+Code: final_price = base_price * discount
+
+Explanation:
+An operation failed because a missing value was used where a real value was expected.
+
+Observed Facts:
+- Failing function: checkout
+- Original error message: unsupported operand type(s) for *: 'int' and 'NoneType'
+- Variable `base_price` had value 100
+- Variable `discount` had value None
+- Variable `final_price` had value None
+
+Suspected Cause:
+A variable with value None reached logic that expected a valid object or number.
+
+Confidence: medium
+
+Suggested Next Action:
+Check where the None value was introduced before this operation.
+
+Root Cause Trace:
+- Variable `base_price` was last assigned on line 2 as: 100
+- Variable `discount` was last assigned on line 3 as: get_discount()
+- Variable `final_price` was last assigned on line 8 as: base_price - discount
+
+Function Call Trace:
+- Variable `discount` was assigned from call `get_discount()` on line 3 and had runtime value None; `get_discount()` appears to return: None
+
+Branch Trace:
+- Line 5: condition `discount is None` could not be evaluated from the available runtime values.
+
+Possible Solutions:
+- Add a check for None before performing the operation.
+- Ensure the variable is assigned a real numeric or object value earlier.
+- Use a fallback value only if that matches the intended behavior.
+
+Recommended Solution:
+Validate the value before the operation and trace where None was introduced.
+
+Possible Risks:
+- Using a fallback value may hide the real upstream data problem.
+- Only checking at the failure point may leave similar bugs elsewhere.
+
+Risk Level: medium
+
+Notes:
+- Root cause trace generated from local variable assignments.
+- Function call trace generated from local call assignments.
+- Branch trace generated from function conditions and runtime values.
